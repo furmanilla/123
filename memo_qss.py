@@ -2,7 +2,7 @@
 # можно оставить на ознакомление особо заинтересованными):
 QSS = '''
 QPushButton { 
-    background-color: rgb(210, 210, 210); 
+    background-color: rgb(0, 255, 255); 
     border-width: 1px;
     border-radius: 10px;
     border-color: gray;
@@ -17,7 +17,7 @@ QPushButton:pressed {
 QGroupBox {
     color: gray;
     font: 14px;
-    border-radius: 7px;
+    border-radius: 9px;
     border: 2px solid gray;
     margin-top: 2ex;
 }
@@ -61,9 +61,9 @@ QLabel {
 '''
 
 QSS_OK = '''
-QPushButton { background-color: rgb(50, 50, 50); 
+QPushButton { background-color: rgb(128, 128, 0); 
     border-width: 2px;
-    border-radius: 10px;
+    border-radius: 30px;
     border-color: beige;
     font: bold 18px "Montserrat";
     min-width: 10em;
@@ -88,7 +88,7 @@ QSS_TextHeader = '''QLabel {
 }'''
 
 QSS_menu = '''
-QPushButton { background-color: rgb(50, 50, 50); 
+QPushButton { background-color: rgb(128, 128, 0); 
     border-width: 2px;
     border-radius: 10px;
     border-color: beige;
