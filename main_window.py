@@ -2,6 +2,8 @@ from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 
 from memo_qss import *
+win_menu = QWidget()
+win_menu.setStyleSheet(QSS_menu)
 
 w,h = 600,500
 win_card = QWidget()
